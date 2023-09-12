@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}    
+
+
+.menu{ /* Dividindo o site */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 20%;
+    padding: 100px 25px 72px;
+    box-sizing: border-box;
+    border-right: 1px solid #fff;
+    text-align: center;
+    background-color: #1a3b97;
+    /* color: #fff; */
+    
+}
+
+.section{ /* Dividino o site */
+    display: block;
+    box-sizing: border-box;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.header img{
+    padding: 35px;
+    border-radius: 15px;
+    transition: .4s;
+}
+.header{
+    background-color: #1b88d4;
+}
+.header img:hover{
+    transform: scale(110%);
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.links li a{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #fff;
+    border-radius: 19px;
+    padding: 3px 15px;
+    color: #fff;
+    transition: .3s;
+}
+.links li a:hover{
+    transition: .2s ease-in-out;
+    font-size: 19px;
+    color: yellow;
+    border: 1px solid yellow;
+}
+.links li{
+    list-style: none;
+    padding: 7px;
+}
+
+/* Body */
+
+.section{
+    background-color: #1b88d4;
+    color: #fff;
+}
+.body{
+    width: 80%;
+    margin: auto;
+    background-color: #5367ca;
+    -webkit-box-shadow: 13px 10px 9px 5px rgba(0,0,0,0.65); 
+    box-shadow: 13px 10px 9px 5px rgba(0,0,0,0.65);
+    border-radius: 8px;
+}
+
+.tabela{
+    margin: 40px 40px 20px;
+    padding: 20px 1px;
+}
+.tabela caption{
+    margin: 20px 1px 1px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #000;
+    font-weight: 600;
+}
+.tabela tr{
+    text-align: center;
+    
+}
+
+.tabela tr th{
+    padding: 5px 22px;
+    width: 350px;
+    height: 40px;
+    align-items: stretch;
+}
+
+.tabela td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    transition: .4s;
+}
+
+.section small{
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* 
+    #IDEIA PARA COLOCAR COR NOS DIAS DISPONIVEIS PARA AGENDAMENTO!
+.tabela .mudaverde{
+    background-color: #66ff00;
+}
+.tabela .mudavermelho{
+    background-color: red;
+} */
+
+.tabela .mudatrasnaparent{
+    color: #ffffff55;
+    transition: .2s;
+}
+.tabela .mudatrasnaparent:hover{
+    background-color: rgb(241, 50, 50);
+}
+.tabela tbody td:hover {
+    cursor: pointer;
+    background-color: #66ff00;
+    transition: 0.3s ease-in;
+    color: #000;
+}
+
+/* SEGUNDA TABELA CONFIGS */
+
+.tabela2{
+    margin: 40px 40px 20px;
+    padding: 20px 1px;
+}
+.tabela2 caption{
+    margin: 20px 1px 1px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #000;
+    font-weight: 600;
+}
+.tabela2 tr{
+    text-align: center;
+    
+}
+
+.tabela2 tr th{
+    padding: 5px 22px;
+    width: 350px;
+    height: 40px;
+    align-items: stretch;
+}
+
+.tabela2 td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    transition: .4s;
+    color: #000;
+}
+.tabela2 .top{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+.tabela2 thead th{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 800;
+} 
+.tabela2 tbody td:hover{
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    transform: scale(104%);
+    background-color: #1a3b97;
+    color: #fff;
+}
+.tabela2 .top:hover{
+    transform: scale(100%);
+}
+/* Footer */
+
+
+.footer img{
+    width: 16px;
+    margin-right: 5px;
+}
+
+.footer p{
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.footer .footer-title{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer p:hover{
+    cursor: pointer;
+
+}
+
+/* config para deixar a área selecionada */
+.links .selecionado{
+    /* transition: .2s ease-in-out; */
+    font-size: 19px;
+    color: yellow;
+    border: 1px solid yellow;
+}

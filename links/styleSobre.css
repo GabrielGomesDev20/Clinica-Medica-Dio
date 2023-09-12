@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}    
+
+
+.menu{ /* Dividindo o site */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 20%;
+    padding: 100px 25px 72px;
+    box-sizing: border-box;
+    border-right: 1px solid #fff;
+    text-align: center;
+    background-color: #1a3b97;
+    /* color: #fff; */
+    
+}
+
+.section{ /* Dividino o site */
+    display: block;
+    box-sizing: border-box;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.header img{
+    padding: 35px;
+    border-radius: 15px;
+    transition: .4s;
+}
+.header{
+    background-color: #1b88d4;
+}
+.header img:hover{
+    transform: scale(110%);
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.links li a{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid #fff;
+    border-radius: 19px;
+    padding: 3px 15px;
+    color: #fff;
+    transition: .3s;
+}
+.links li a:hover{
+    transition: .2s ease-in-out;
+    font-size: 19px;
+    color: yellow;
+    border: 1px solid yellow;
+}
+.links li{
+    list-style: none;
+    padding: 7px;
+}
+
+/* Body */
+
+.section{
+    background-color: #1b88d4;
+    color: #fff;
+}
+.body{
+    width: 80%;
+    margin: auto;
+    background-color: #5367ca;
+    -webkit-box-shadow: 13px 10px 9px 5px rgba(0,0,0,0.65); 
+    box-shadow: 13px 10px 9px 5px rgba(0,0,0,0.65);
+    border-radius: 8px;
+}
+.body h2{
+    padding-top: 10px;
+    margin: 40px 50px 10px 50px;
+}
+
+.body p{
+    font-size: 18px;
+    padding: 20px 1px;
+}
+
+.sobre img{
+    width: 526px;
+    margin: 50px 20px 15px;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    /* border: 1px solid #fff; */
+    -webkit-box-shadow: -7px 7px 17px 1px rgba(0,0,0,0.83); 
+    box-shadow: -7px 7px 17px 1px rgba(0,0,0,0.83);
+}
+
+.sobre iframe{
+    margin: 50px 20px 15px;
+    border-radius: 12px;
+    -webkit-box-shadow: 7px 7px 17px 1px rgba(0,0,0,0.83); 
+    box-shadow: 7px 7px 17px 1px rgba(0,0,0,0.83);
+}
+.sobre small{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre .sFoto{
+    margin-right: 550px;
+    /* width: 35%; */
+    /* display: flex; */
+    border: 2px solid black;
+}
+.sobre .sMaps{
+    margin-left: 600px;
+    width: 35%;
+    padding-right: 150px;
+    border: 2px solid black;
+}
+/* Footer */
+
+
+.footer img{
+    width: 16px;
+    margin-right: 5px;
+}
+
+.footer p{
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.footer .footer-title{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer p:hover{
+    cursor: pointer;
+
+}
+
+
+/* config para deixar a área selecionada */
+.links .selecionado{
+    /* transition: .2s ease-in-out; */
+    font-size: 19px;
+    color: yellow;
+    border: 1px solid yellow;
+}
